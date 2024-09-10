@@ -5,6 +5,14 @@ The **Personal Finance Management System** (FinTrack) is a multi-platform soluti
 
 This project was developed as part of the 6th-semester final project for the **B.Sc. (Information Technology)** 5-year integrated course at **Veer Narmad South Gujarat University**.
 
+---
+
+### Contributors
+- **Gaurav Chauhan (Website)** 
+- **Chirag Boghara (Application)** 
+
+---
+
 ### Key Features
 1. **User Authentication**:
    - OTP-based login system using a valid mobile number.
@@ -84,4 +92,64 @@ This project was developed as part of the 6th-semester final project for the **B
 - **Backend**:
   - Node.js and npm installed for running the backend server.
   - MongoDB server for data storage.
+
+---
+
+### Features in Detail
+
+1. **Authentication**
+   - **Sign Up/Log In**: Users can sign up using their mobile number. OTP-based authentication ensures secure access.
+   - **Logout**: Users can log out at any time, and their session is securely terminated.
+
+2. **Managing Transactions**
+   - **Add Transaction**: Users can add an income or expense transaction. Each transaction includes a description, category, and optional bill image.
+   - **Update/Delete**: Transactions can be updated or deleted, with changes reflected in real-time.
+   - **Custom Categories**: Users can create new categories for their transactions besides the default ones.
+
+3. **Group Expense Sharing**
+   - Users can create groups to split expenses with multiple members. The app calculates who owes whom, simplifying group payments for things like trips, shared living expenses, or events.
+
+4. **Goals Management**
+   - **Create Goal**: Set goals with target amounts and deadlines.
+   - **Track Progress**: Users can view how much they’ve saved toward a goal, with visual progress indicators.
+
+5. **Debt Management**
+   - Track amounts owed to or from debtors and creditors.
+   - Users can keep records of their financial obligations and manage settlements with a few clicks.
+
+6. **Data Visualization**
+   - Graphs provide insights into income and expense trends, helping users understand their financial situation at a glance.
+
+7. **Data Export and Sharing**
+   - Users can export their financial data in CSV or Excel format.
+   - Share data directly via email or messaging apps, making it easier to collaborate on group finances.
+
+8. **Daily Reminders**
+   - Local notifications can be set to remind users to log their transactions at a specified time.
+
+---
+
+### System Architecture
+
+#### Frontend:
+- The mobile app is built using **Flutter**, which ensures cross-platform compatibility (Android & iOS).
+- The web app uses **ReactJS**, offering a responsive and interactive user experience.
+
+#### Backend:
+- **Node.js** and **Express.js** power the backend, handling requests and serving data to the frontend applications.
+- **MongoDB** is used as the database, offering flexibility and scalability for storing and managing user data.
+
+#### API Integration:
+- The frontend communicates with the backend via **RESTful APIs**, enabling secure data transactions between the frontend and the database.
+
+---
+
+### Future Enhancements
+
+- **Cloud Data Backup**: Allow users to back up their data to the cloud for access from multiple devices.
+- **In-App Purchases**: Add premium features that users can unlock through in-app purchases.
+- **Social Media Integration**: Implement a system where users can share financial tips, track trends, and engage with a financial community.
+- **Stock & Crypto Alerts**: Notify users of key price changes for stocks and cryptocurrencies.
+- **QR Code Scanning**: Enable adding group members by scanning a QR code.
+
 
